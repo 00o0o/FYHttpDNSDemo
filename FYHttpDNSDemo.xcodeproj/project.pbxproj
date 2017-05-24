@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A64295BE0465026E403527CF /* libPods-FYHttpDNSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D70AF0790C5720F4D0BB09 /* libPods-FYHttpDNSDemo.a */; };
 		B3F0C8DE1ED43A170094B713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F0C8DD1ED43A170094B713 /* main.m */; };
 		B3F0C8E11ED43A170094B713 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F0C8E01ED43A170094B713 /* AppDelegate.m */; };
 		B3F0C8E41ED43A170094B713 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F0C8E31ED43A170094B713 /* ViewController.m */; };
 		B3F0C8E71ED43A170094B713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F0C8E51ED43A170094B713 /* Main.storyboard */; };
 		B3F0C8E91ED43A170094B713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F0C8E81ED43A170094B713 /* Assets.xcassets */; };
 		B3F0C8EC1ED43A170094B713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F0C8EA1ED43A170094B713 /* LaunchScreen.storyboard */; };
+		B3F0C8FB1ED43A2E0094B713 /* FYDNSPod.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F0C8F51ED43A2E0094B713 /* FYDNSPod.m */; };
+		B3F0C8FC1ED43A2E0094B713 /* FYHttpDNS.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F0C8F71ED43A2E0094B713 /* FYHttpDNS.m */; };
+		B3F0C8FD1ED43A2E0094B713 /* FYURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F0C8F91ED43A2E0094B713 /* FYURLProtocol.m */; };
+		B3F0C9011ED441640094B713 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F0C9001ED441640094B713 /* Book.m */; };
+		B3F0C9031ED4437D0094B713 /* douban.cer in Resources */ = {isa = PBXBuildFile; fileRef = B3F0C9021ED4437B0094B713 /* douban.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D018B3B01C0676FA2E34BC5 /* Pods-FYHttpDNSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYHttpDNSDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYHttpDNSDemo/Pods-FYHttpDNSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		30D70AF0790C5720F4D0BB09 /* libPods-FYHttpDNSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYHttpDNSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7D5C1BA95DA80C0EAB8AC3 /* Pods-FYHttpDNSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYHttpDNSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYHttpDNSDemo/Pods-FYHttpDNSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B3F0C8D91ED43A170094B713 /* FYHttpDNSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYHttpDNSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F0C8DD1ED43A170094B713 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3F0C8DF1ED43A170094B713 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,17 @@
 		B3F0C8E81ED43A170094B713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F0C8EB1ED43A170094B713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3F0C8ED1ED43A170094B713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F0C8F41ED43A2E0094B713 /* FYDNSPod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYDNSPod.h; sourceTree = "<group>"; };
+		B3F0C8F51ED43A2E0094B713 /* FYDNSPod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYDNSPod.m; sourceTree = "<group>"; };
+		B3F0C8F61ED43A2E0094B713 /* FYHttpDNS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYHttpDNS.h; sourceTree = "<group>"; };
+		B3F0C8F71ED43A2E0094B713 /* FYHttpDNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYHttpDNS.m; sourceTree = "<group>"; };
+		B3F0C8F81ED43A2E0094B713 /* FYURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYURLProtocol.h; sourceTree = "<group>"; };
+		B3F0C8F91ED43A2E0094B713 /* FYURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYURLProtocol.m; sourceTree = "<group>"; };
+		B3F0C8FA1ED43A2E0094B713 /* FYURLProtocol_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYURLProtocol_Private.h; sourceTree = "<group>"; };
+		B3F0C8FE1ED440270094B713 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		B3F0C8FF1ED441640094B713 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		B3F0C9001ED441640094B713 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		B3F0C9021ED4437B0094B713 /* douban.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = douban.cer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64295BE0465026E403527CF /* libPods-FYHttpDNSDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7767067DFF4978E2C8545FA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B7D5C1BA95DA80C0EAB8AC3 /* Pods-FYHttpDNSDemo.debug.xcconfig */,
+				0D018B3B01C0676FA2E34BC5 /* Pods-FYHttpDNSDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B3F0C8D01ED43A170094B713 = {
 			isa = PBXGroup;
 			children = (
 				B3F0C8DB1ED43A170094B713 /* FYHttpDNSDemo */,
 				B3F0C8DA1ED43A170094B713 /* Products */,
+				7767067DFF4978E2C8545FA1 /* Pods */,
+				FE064BB6A451B36B755318A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +90,10 @@
 		B3F0C8DB1ED43A170094B713 /* FYHttpDNSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B3F0C9021ED4437B0094B713 /* douban.cer */,
+				B3F0C8FF1ED441640094B713 /* Book.h */,
+				B3F0C9001ED441640094B713 /* Book.m */,
+				B3F0C8F31ED43A2E0094B713 /* FYHttpDNS */,
 				B3F0C8DF1ED43A170094B713 /* AppDelegate.h */,
 				B3F0C8E01ED43A170094B713 /* AppDelegate.m */,
 				B3F0C8E21ED43A170094B713 /* ViewController.h */,
@@ -67,6 +103,7 @@
 				B3F0C8EA1ED43A170094B713 /* LaunchScreen.storyboard */,
 				B3F0C8ED1ED43A170094B713 /* Info.plist */,
 				B3F0C8DC1ED43A170094B713 /* Supporting Files */,
+				B3F0C8FE1ED440270094B713 /* Common.h */,
 			);
 			path = FYHttpDNSDemo;
 			sourceTree = "<group>";
@@ -79,6 +116,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B3F0C8F31ED43A2E0094B713 /* FYHttpDNS */ = {
+			isa = PBXGroup;
+			children = (
+				B3F0C8F41ED43A2E0094B713 /* FYDNSPod.h */,
+				B3F0C8F51ED43A2E0094B713 /* FYDNSPod.m */,
+				B3F0C8F61ED43A2E0094B713 /* FYHttpDNS.h */,
+				B3F0C8F71ED43A2E0094B713 /* FYHttpDNS.m */,
+				B3F0C8F81ED43A2E0094B713 /* FYURLProtocol.h */,
+				B3F0C8F91ED43A2E0094B713 /* FYURLProtocol.m */,
+				B3F0C8FA1ED43A2E0094B713 /* FYURLProtocol_Private.h */,
+			);
+			path = FYHttpDNS;
+			sourceTree = "<group>";
+		};
+		FE064BB6A451B36B755318A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30D70AF0790C5720F4D0BB09 /* libPods-FYHttpDNSDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3F0C8F01ED43A170094B713 /* Build configuration list for PBXNativeTarget "FYHttpDNSDemo" */;
 			buildPhases = (
+				5251971C7034FB73EB3C533B /* [CP] Check Pods Manifest.lock */,
 				B3F0C8D51ED43A170094B713 /* Sources */,
 				B3F0C8D61ED43A170094B713 /* Frameworks */,
 				B3F0C8D71ED43A170094B713 /* Resources */,
+				A241AB9D9309261B9716D013 /* [CP] Embed Pods Frameworks */,
+				E556C5409DEAC0B8658CF54C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +172,7 @@
 				TargetAttributes = {
 					B3F0C8D81ED43A170094B713 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U8N666U5AW;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,18 +203,71 @@
 				B3F0C8EC1ED43A170094B713 /* LaunchScreen.storyboard in Resources */,
 				B3F0C8E91ED43A170094B713 /* Assets.xcassets in Resources */,
 				B3F0C8E71ED43A170094B713 /* Main.storyboard in Resources */,
+				B3F0C9031ED4437D0094B713 /* douban.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5251971C7034FB73EB3C533B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A241AB9D9309261B9716D013 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYHttpDNSDemo/Pods-FYHttpDNSDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E556C5409DEAC0B8658CF54C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYHttpDNSDemo/Pods-FYHttpDNSDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3F0C8D51ED43A170094B713 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F0C8FB1ED43A2E0094B713 /* FYDNSPod.m in Sources */,
+				B3F0C8FC1ED43A2E0094B713 /* FYHttpDNS.m in Sources */,
+				B3F0C8FD1ED43A2E0094B713 /* FYURLProtocol.m in Sources */,
 				B3F0C8E41ED43A170094B713 /* ViewController.m in Sources */,
 				B3F0C8E11ED43A170094B713 /* AppDelegate.m in Sources */,
+				B3F0C9011ED441640094B713 /* Book.m in Sources */,
 				B3F0C8DE1ED43A170094B713 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,9 +388,12 @@
 		};
 		B3F0C8F11ED43A170094B713 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7D5C1BA95DA80C0EAB8AC3 /* Pods-FYHttpDNSDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U8N666U5AW;
 				INFOPLIST_FILE = FYHttpDNSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.realswifter.FYHttpDNSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,9 +402,12 @@
 		};
 		B3F0C8F21ED43A170094B713 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D018B3B01C0676FA2E34BC5 /* Pods-FYHttpDNSDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U8N666U5AW;
 				INFOPLIST_FILE = FYHttpDNSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.realswifter.FYHttpDNSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,6 +433,7 @@
 				B3F0C8F21ED43A170094B713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

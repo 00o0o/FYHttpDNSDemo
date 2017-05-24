@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FYHttpDNS.h"
+#import "Common.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    kHttpDNSConfiguration.certPath = [[NSBundle mainBundle] pathForResource:@"douban" ofType:@"cer"];
+    kHttpDNSConfiguration.SSLPinningMode = FYSSLPinningModeCertficate;
+    [FYHttpDNS resolveDomain:[NSURL URLWithString:API_HOST].host];
+    
     return YES;
 }
 
